@@ -1,0 +1,148 @@
+{
+    "entries": [
+        {
+            "level": 0,
+            "title": "Turing Test",
+            "description": "Classic conversational benchmark: if a human judge can't reliably tell the machine from a person, the machine 'passes.'",
+            "source": "Alan Turing, \"Computing Machinery and Intelligence,\" *Mind* 1950"
+        },
+        {
+            "level": 0,
+            "title": "Artificial Neural Networks",
+            "description": "Interconnected layers of weighted nodes inspired by biological neurons; the workhorse behind most modern AI.",
+            "source": "McCulloch & Pitts 1943; Rosenblatt's Perceptron 1958"
+        },
+        {
+            "level": 0,
+            "title": "ChatGPT",
+            "description": "Large-scale conversational model that popularised everyday access to generative AI.",
+            "source": "OpenAI blog, \"Introducing ChatGPT,\" 2022"
+        },
+        {
+            "level": 0,
+            "title": "Algorithmic Bias in ML",
+            "description": "Systematic unfairness arising when training data reflect societal prejudices.",
+            "source": "Caliskan, Bryson, Narayanan, *Science* 2017"
+        },
+        {
+            "level": 0,
+            "title": "AI Ethics Guidelines",
+            "description": "Frameworks for responsible development and deployment—privacy, fairness, accountability.",
+            "source": "Jobin, Ienca, Vayena, \"The global landscape of AI ethics guidelines,\" *Nat. Mach. Intell.* 2019"
+        },
+        {
+            "level": 1,
+            "title": "Scaling Laws",
+            "description": "Empirical power-law relationships showing model performance improves predictably with data, parameters, and compute.",
+            "source": "Kaplan et al., arXiv 2001.08361 (2020)"
+        },
+        {
+            "level": 1,
+            "title": "AlphaFold",
+            "description": "DeepMind system achieving near-experimental accuracy in protein-structure prediction.",
+            "source": "Jumper et al., *Nature* 2021"
+        },
+        {
+            "level": 1,
+            "title": "GAN Deepfakes",
+            "description": "Generative Adversarial Networks crafting realistic synthetic media, enabling both artistry and misinformation.",
+            "source": "Goodfellow et al., NIPS 2014"
+        },
+        {
+            "level": 1,
+            "title": "Attention-Head Interpretability",
+            "description": "Analysing individual transformer heads to reveal roles such as coreference tracking or induction.",
+            "source": "Vig, \"BERTviz,\" ACL 2019 demo"
+        },
+        {
+            "level": 1,
+            "title": "RLHF (Reinforcement Learning from Human Feedback)",
+            "description": "Fine-Tuning Language Models from Human Preferences",
+            "source": "Christiano et al., https://arxiv.org/abs/1909.08593"
+        },
+        {
+            "level": 2,
+            "title": "Sparse Mixture-of-Experts",
+            "description": "Massive models where only a subset of parameter 'experts' is activated per token, boosting capacity without linear compute cost.",
+            "source": "Lepikhin et al., \"GShard,\" ICML 2020"
+        },
+        {
+            "level": 2,
+            "title": "Neural ODEs",
+            "description": "Treats hidden states as continuous-time dynamics solved by an ODE solver, enabling adaptive computation and invertibility.",
+            "source": "Chen et al., NeurIPS 2018"
+        },
+        {
+            "level": 2,
+            "title": "Lottery Ticket Hypothesis",
+            "description": "Within an over-parameterised network exists a sparse sub-network that, when trained in isolation, matches original performance.",
+            "source": "Frankle & Carbin, ICLR 2019"
+        },
+        {
+            "level": 2,
+            "title": "HyperNetworks",
+            "description": "Networks that generate the weights of another network on-the-fly, enabling rapid specialisation and parameter sharing.",
+            "source": "Ha, Dai, Le, ICLR 2017"
+        },
+        {
+            "level": 2,
+            "title": "Neural Architecture Search (NAS)",
+            "description": "Automated exploration of layer/topology designs, often outperforming human-crafted architectures.",
+            "source": "Zoph & Le, ICLR 2017"
+        },
+        {
+            "level": 3,
+            "title": "Membrane-Computing (P-Systems)",
+            "description": "Bio-inspired models using nested 'membranes' that rewrite multisets in parallel—Turing complete yet rarely practical.",
+            "source": "Păun, *Int'l J. Comput. Commun.* 2000"
+        },
+        {
+            "level": 3,
+            "title": "Grokking Phenomenon",
+            "description": "Networks that overfit for many iterations before suddenly leaping to generalisation once implicitly regularised.",
+            "source": "Power et al., arXiv 2201.02177 (2022)"
+        },
+        {
+            "level": 3,
+            "title": "Upcycled Gradient",
+            "description": "Back-prop variant reusing discarded forward activations to cut memory—obscure, rarely implemented.",
+            "source": "Gu et al., NeurIPS 2020"
+        },
+        {
+            "level": 3,
+            "title": "Self-Replicating Neural Networks",
+            "description": "Architectures whose output weights fully describe their own parameters, reminiscent of biological reproduction.",
+            "source": "Ha, \"Self-Replicating Neural Networks,\" *Distill* 2018"
+        },
+        {
+            "level": 3,
+            "title": "Quantum-Inspired Neural Circuits",
+            "description": "Frameworks mapping continuous-variable quantum operations onto differentiable models for hybrid quantum-classical learning.",
+            "source": "Killoran et al., *Phys. Rev. Research* 2019"
+        },
+        {
+            "level": 4,
+            "title": "Gödel Machine",
+            "description": "A theoretical agent that rewrites its own code once it proves the rewrite will increase expected utility—provably optimal self-improvement.",
+            "source": "Schmidhuber, arXiv:cs/0309048 (2003)"
+        },
+        {
+            "level": 4,
+            "title": "Solomonoff Induction",
+            "description": "Idealised Bayesian predictor summing over all computable hypotheses weighted by algorithmic complexity—uncomputable in practice.",
+            "source": "Solomonoff, *Inform. Control* 1964"
+        },
+        {
+            "level": 4,
+            "title": "AIXI",
+            "description": "Mathematical model of a universally intelligent agent that blends Solomonoff induction with sequential decision theory.",
+            "source": "Hutter, \"Universal Artificial Intelligence,\" Springer 2005"
+        },
+        {
+            "level": 4,
+            "title": "Infra-Bayesianism",
+            "description": "Decision-theory framework handling Knightian uncertainty via convex sets of distributions; proposed for AI alignment.",
+            "source": "Garrabrant & Demski, MIRI research posts 2019"
+        }
+    ]
+} 
