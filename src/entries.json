@@ -143,6 +143,12 @@
             "title": "Infra-Bayesianism",
             "description": "Decision-theory framework handling Knightian uncertainty via convex sets of distributions; proposed for AI alignment.",
             "source": "Garrabrant & Demski, MIRI research posts 2019"
-        }
+        },
+        {
+            "level": 4,
+            "title": "ELK (Eliciting Latent Knowledge)",
+            "description": "Open problem: how to get models to faithfully reveal info they 'know' without incentives to deceive.",
+            "source": "Christiano et al., Alignment Research Center report 2021"
+        }        
     ]
 } 
